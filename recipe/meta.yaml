@@ -1,5 +1,6 @@
 {% set name = "lungmask" %}
-{% set version = "0.2.20" %}
+{% set version = "0.2.21" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lungmask-{{ version }}.tar.gz
-  sha256: 92dac093243b9ead53db73fccf6ec274dc01f8568efa26d77e9dd828d5dcd974
+  sha256: f1d33665436143539d35aa4657ac6f563682cb006bcef800452adda9fb1fd03d
 
 build:
   entry_points:
